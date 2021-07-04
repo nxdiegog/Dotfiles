@@ -1,4 +1,6 @@
-# Diego Garcia
+# ~~~~~~~~~~~~~~~~~~~~~~~~~$ Diego Garcia $~~~~~~~~~~~~~~~~~~~~~~~~~
+# This is the i3wm config. All the file have coments when you can 
+# see what is the funcionality.
 
 # ---------- Mod Key ----------
 set $mod Mod4
@@ -245,7 +247,6 @@ client.background       #F8F8F2
 
 
 # ---------- i3-gaps ---------- 
-#https://lottalinuxlinks.com/how-to-build-and-install-i3-gaps-on-debian/
 gaps inner 8
 gaps outer 4
 smart_gaps on
