@@ -35,8 +35,8 @@ bindsym $mod+Return exec lxterminal
 bindsym $mod+t exec thunar
 
 # Bleachbit 
-bindsym $mod+m exec sudo bleachbit
-bindsym $mod+n exec bleachbit
+#bindsym $mod+m exec sudo bleachbit
+#bindsym $mod+n exec bleachbit
 
 # Brave
 bindsym $mod+b exec brave-browser
@@ -45,16 +45,16 @@ bindsym $mod+b exec brave-browser
 bindsym Print exec flameshot gui
 
 # Battery
-exec_always xfce4-power-manager
+#exec_always xfce4-power-manager
 
 # Wallpaper 
-exec_always feh --bg-fill /home/diego/Pictures/wallpapers/1.jpg
+exec_always feh --bg-fill /home/user/Pictures/wallpapers/1.jpg
 
 # Compositor 
 exec_always picom -b 
 
 # Rofi
-set $rofi_theme "/usr/share/rofi/themes/config.rasi"
+set $rofi_theme "/usr/share/rofi/themes/Pop-Dark.rasi"
 bindsym $mod+d exec rofi -show drun -show-icons -config $rofi_theme
 bindsym $mod+Shift+d exec rofi -show window -config $rofi_theme
 bindsym $mod+i exec dmenu_run
@@ -210,7 +210,7 @@ bar {
 
 	  #status_command i3blocks
 	  status_command ~/.config/bumblebee-status/bumblebee-status \
-	  -t Material-Black \
+	  -t dracula-powerline \
 	  -m battery  sensors  pasink  datetime 
    
 	  position top	
