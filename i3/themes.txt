@@ -1,0 +1,209 @@
+# ------------------- $ Dracula theme $ --------------------
+
+bar {
+  colors {
+	    background #282A36
+	    statusline #F8F8F2
+	    separator  #44475A
+
+	    focused_workspace  #44475A #44475A #F8F8F2
+	    active_workspace   #282A36 #44475A #F8F8F2
+	    inactive_workspace #282A36 #282A36 #BFBFBF
+	    urgent_workspace   #FF5555 #FF5555 #F8F8F2
+	    binding_mode       #FF5555 #FF5555 #F8F8F2
+  	}
+     }  
+
+
+# class                 border  bground text    indicator child_border
+client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+
+client.background       #F8F8F2
+
+# -------------------- $ MB Cherry $ --------------------
+
+bar {
+colors {
+	    background #0F1011
+	    statusline #B80505
+	    separator  #44475A
+		
+#			       Border  BGround  icons			
+	    focused_workspace  #b73838 #b73838 #F8F8F2
+	    active_workspace   #0F1011 #44475A #F8F8F2
+	    inactive_workspace #0F1011 #0F1011 #b73838
+	    urgent_workspace   #FF5555 #FF5555 #F8F8F2
+	    binding_mode       #FF5555 #FF5555 #F8F8F2
+  	}
+     }  
+
+
+# class                 border  bground text    indicator child_border
+client.focused          #b73838 #b73838 #F8F8F2 #b73838   #b73838
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+
+client.background       #F8F8F2
+
+# -------------------- $ MB Blueberry $ --------------------
+
+	  colors {
+	    background #0F1011
+	    statusline #B80505
+	    separator  #44475A
+		
+#			       Border  BGround  icons			
+	    focused_workspace  #3d89c9 #3d89c9 #F8F8F2
+	    active_workspace   #0F1011 #44475A #F8F8F2
+	    inactive_workspace #0F1011 #0F1011 #3d89c9
+	    urgent_workspace   #FF5555 #FF5555 #F8F8F2
+	    binding_mode       #FF5555 #FF5555 #F8F8F2
+  	}
+
+# class                 border  bground text    indicator child_border
+client.focused          #3d89c9 #3d89c9 #F8F8F2 #3d89c9   #3d89c9
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+
+client.background       #F8F8F2
+
+# -------------------- $ MB Plum $ --------------------
+
+	  colors {
+	    background #0F1011
+	    statusline #B80505
+	    separator  #44475A
+		
+#			       Border  BGround  icons			
+	    focused_workspace  #9259ff #9259ff #FFFFFF
+	    active_workspace   #0F1011 #44475A #FFFFFF
+	    inactive_workspace #0F1011 #0F1011 #9259ff
+	    urgent_workspace   #FF5555 #FF5555 #F8F8F2
+	    binding_mode       #FF5555 #FF5555 #F8F8F2
+  	}
+
+# class                 border  bground text    indicator child_border
+client.focused          #9259ff #9259ff #F8F8F2 #9259ff   #9259ff
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+
+client.background       #F8F8F2
+
+# -------------------- $ MB Lime $ --------------------
+
+	  colors {
+	    background #0F1011
+	    statusline #B80505
+	    separator  #44475A
+		
+#			       Border  BGround  icons			
+	    focused_workspace  #508D08 #508D08 #FFFFFF
+	    active_workspace   #0F1011 #44475A #FFFFFF
+	    inactive_workspace #0F1011 #0F1011 #7dbf2f
+	    urgent_workspace   #FF5555 #FF5555 #F8F8F2
+	    binding_mode       #FF5555 #FF5555 #F8F8F2
+  	}
+
+# class                 border  bground text    indicator child_border
+client.focused          #7dbf2f #7dbf2f #F8F8F2 #7dbf2f   #7dbf2f
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+
+client.background       #F8F8F2
+
+# -------------------- $ MB Mango $ --------------------
+
+	  colors {
+	    background #0F1011
+	    statusline #B80505
+	    separator  #44475A
+		
+#			       Border  BGround  icons			
+	    focused_workspace  #B67C0B #B67C0B #FFFFFF
+	    active_workspace   #0F1011 #44475A #FFFFFF
+	    inactive_workspace #0F1011 #0F1011 #cc9428
+	    urgent_workspace   #FF5555 #FF5555 #F8F8F2
+	    binding_mode       #FF5555 #FF5555 #F8F8F2
+  	}
+
+# class                 border  bground text    indicator child_border
+client.focused          #cc9428 #cc9428 #F8F8F2 #cc9428   #cc9428
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+
+client.background       #F8F8F2
+
+# -------------------- $ MB Pistachio $ --------------------
+
+	  colors {
+	    background #0F1011
+	    statusline #B80505
+	    separator  #44475A
+		
+#			       Border  BGround  icons			
+	    focused_workspace  #02776B #02776B #FFFFFF
+	    active_workspace   #0F1011 #44475A #FFFFFF
+	    inactive_workspace #0F1011 #0F1011 #38b7ab
+	    urgent_workspace   #FF5555 #FF5555 #F8F8F2
+	    binding_mode       #FF5555 #FF5555 #F8F8F2
+  	}
+
+# class                 border  bground text    indicator child_border
+client.focused          #38b7ab #38b7ab #F8F8F2 #38b7ab   #38b7ab
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+
+client.background       #F8F8F2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
