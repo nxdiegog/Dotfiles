@@ -46,12 +46,16 @@ mv bumblebee-status ~/.config/ -r
 The last thing you have to do. In the config file you have to modificate something.
 ```config
 # Wallpaper 
-exec_always feh --bg-fill /home/diego/Pictures/wallpapers/1.jpg
+exec_always feh --bg-fill /home/user/Pictures/wallpapers/1.jpg
 # You have to put the corret path for your wallpaper.
 ```
+If you want to changes the color of status bar you can see the ```themes.txt```. In this file I put some themes that you can use. I recommned to see
+what themes I use because this themes are related with ```themes.txt```. 
+
 And that is! Now you can restart your window manager ```mod+Shift+r``` and you have your new window manager.
 
-![ww](https://user-images.githubusercontent.com/85723755/124371111-e0585a80-dc3b-11eb-9ba8-89a20496d323.png)
+![ww](https://user-images.githubusercontent.com/85723755/124371300-940e1a00-dc3d-11eb-8e4c-dac01c24c984.png)
+
 
 
 
