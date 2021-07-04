@@ -51,3 +51,7 @@ exec_always feh --bg-fill /home/diego/Pictures/wallpapers/1.jpg
 ```
 And that is! Now you can restart your window manager ```mod+Shift+r``` and you have your new window manager.
 
+![ww](https://user-images.githubusercontent.com/85723755/124371111-e0585a80-dc3b-11eb-9ba8-89a20496d323.png)
+
+
+
