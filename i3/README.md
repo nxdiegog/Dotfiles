@@ -3,7 +3,7 @@ i3 is a tiling window manager, completely written from scratch. The target platf
 
 This tiling window manager it's really easy to configure. As you can see their use "config" file. You don't need to knows about some programming languages. Well, let's start with "How to install i3wm?".
 
-# i3wm Instalations
+# i3wm Installations
 The firt we wanna do is to install the window manager and some programs that will allow a better performance.
 
 Debian/Ubuntu:
@@ -36,12 +36,18 @@ So now you have my configuration, but you have to do somethings. The first one, 
 ```bash
 git clone git://github.com/tobi-wan-kenobi/bumblebee-status
 ```
-This is to personalize our status barand allows us to have a better appearance in our desktop environment.
+This is to personalize our status bar and allows us to have a better appearance in our desktop environment.
 
 Now you have to move the ```bumblebee-status directory```.
 ```bash
 mv bumblebee-status ~/.config/ -r
 ```
 
-
+The last thing you have to do. In the config file you have to modificate something.
+```config
+# Wallpaper 
+exec_always feh --bg-fill /home/diego/Pictures/wallpapers/1.jpg
+# You have to put the corret path for your wallpaper.
+```
+And that is! Now you can restart your window manager ```mod+Shift+r``` and you have your new window manager.
 
