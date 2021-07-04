@@ -10,7 +10,7 @@ Debian/Ubuntu:
 ```bash
 sudo apt install i3 rofi picom feh
 ```
-If you have problem to install picom I recommend to see this **[Web Page](https://www.linuxfordevices.com/tutorials/linux/picom)** or the original repository.**[Picom Repo](https://github.com/yshui/picom)**
+If you have problem to install picom I recommend to see this **[Web Page](https://www.linuxfordevices.com/tutorials/linux/picom)** or the original repository (**[Picom Repo](https://github.com/yshui/picom)**)
 
 Then we have to login on i3wm and create the default config. It's easy to create the config file. 
 
@@ -26,7 +26,7 @@ Go to ```~/.config/i3/```  and clone my repository.
 cd ~/.config/i3/
 git clone https://github.com/nxdiegog/Dotfiles/tree/master/i3
 ```
-Then you have to install the fonts. It's allow to for our status bar.
+Then you have to install the font. This font allow to personalize our status bar.
 ```bash
 unzip Ubuntu.zip
 sudo mv *.ttf /usr/share/fonts/
@@ -49,8 +49,8 @@ The last thing you have to do. In the config file you have to modificate somethi
 exec_always feh --bg-fill /home/user/Pictures/wallpapers/1.jpg
 # You have to put the corret path for your wallpaper.
 ```
-If you want to changes the color of status bar you can see the ```themes.txt```. In this file I put some themes that you can use. I recommned to see
-what themes I use because this themes are related with ```themes.txt```. 
+If you want to change the color of the status bar you can see the ``themes.txt`` file. In this file I put some themes that you can use. I recommend you to see
+which themes I use because these themes are related to the settings you find in ``themes.txt``. 
 
 And that is! Now you can restart your window manager ```mod+Shift+r``` and you have your new window manager.
 
