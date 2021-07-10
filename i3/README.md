@@ -62,7 +62,7 @@ Then cd to the directory where you want to download the i3-gaps source code and 
 
 ```bash
 cd .config/
-git clone https://github.com/Airblader/i3
+git clone https://github.com/Airblader/i3.git i3-gaps
 cd i3-gaps
 mkdir -p build && cd build
 meson --prefix /usr/local
