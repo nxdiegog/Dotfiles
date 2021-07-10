@@ -52,7 +52,7 @@ exec_always feh --bg-fill /home/user/Pictures/wallpapers/1.jpg
 # i3 Gaps
 i3-gaps is a fork of the i3 window manager that is kept up to date with upstream i3, and adds the feature of allowing you to have visible and configurable gaps between windows. This feature is just eye candy, and may or may not actually aid the user by providing some visible space between windows (at the expense of some screen real estate) to make clearer the distinction between adjacent windows. What cannot be argued though, is that i3-gaps just looks better. Seriously though, it is just regular i3 but with re-sizable gaps between windows that can be turned on or off.
 
-So, here is how to build from source and install i3-gaps on debian:
+So, here is how to build from source and install i3-gaps on debian/ubuntu:
 
 First install the dependencies:
 ```bash
