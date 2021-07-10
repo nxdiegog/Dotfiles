@@ -60,7 +60,7 @@ sudo apt install meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev libxcb-
 ```
 Then cd to the directory where you want to download the i3-gaps source code and the run the following commands in the order shown.
 
-``bash
+```bash
 cd .config/
 git clone https://github.com/Airblader/i3
 cd i3-gaps
