@@ -4,7 +4,7 @@ i3 is a tiling window manager, completely written from scratch. The target platf
 This tiling window manager is really easy to configure. As you can see their use "config" file. You don't need to knows about some programming languages. Well, let's start with "How to install i3wm?".
 
 # i3wm Installations
-The firt we wanna do is to install the window manager and some programs that will allow a better performance.
+The firt we need to do is to install the window manager and some programs that will allow a better performance.
 
 Debian/Ubuntu:
 ```bash
@@ -49,7 +49,7 @@ The last thing you have to do. In the config file you have to modificate somethi
 exec_always feh --bg-fill /home/user/Pictures/wallpapers/1.jpg
 # You have to put the corret path for your wallpaper.
 ```
-#i3 Gaps
+# i3 Gaps
 i3-gaps is a fork of the i3 window manager that is kept up to date with upstream i3, and adds the feature of allowing you to have visible and configurable gaps between windows. This feature is just eye candy, and may or may not actually aid the user by providing some visible space between windows (at the expense of some screen real estate) to make clearer the distinction between adjacent windows. What cannot be argued though, is that i3-gaps just looks better. Seriously though, it is just regular i3 but with re-sizable gaps between windows that can be turned on or off.
 
 So, here is how to build from source and install i3-gaps on debian:
