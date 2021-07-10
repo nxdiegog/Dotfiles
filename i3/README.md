@@ -49,6 +49,27 @@ The last thing you have to do. In the config file you have to modificate somethi
 exec_always feh --bg-fill /home/user/Pictures/wallpapers/1.jpg
 # You have to put the corret path for your wallpaper.
 ```
+#i3 Gaps
+i3-gaps is a fork of the i3 window manager that is kept up to date with upstream i3, and adds the feature of allowing you to have visible and configurable gaps between windows. This feature is just eye candy, and may or may not actually aid the user by providing some visible space between windows (at the expense of some screen real estate) to make clearer the distinction between adjacent windows. What cannot be argued though, is that i3-gaps just looks better. Seriously though, it is just regular i3 but with re-sizable gaps between windows that can be turned on or off.
+
+So, here is how to build from source and install i3-gaps on debian:
+
+First install the dependencies:
+```bash
+sudo apt install meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev libxcb-shape0 libxcb-shape0-dev
+```
+Then cd to the directory where you want to download the i3-gaps source code and the run the following commands in the order shown.
+
+``bash
+cd .config/
+git clone https://github.com/Airblader/i3
+cd i3-gaps
+mkdir -p build && cd build
+meson --prefix /usr/local
+ninja
+sudo ninja install
+```
+
 If you want to change the color of the status bar you can see the ``themes.txt`` file. In this file I put some themes that you can use. I recommend you to see
 which themes I use because these themes are related to the settings you find in ``themes.txt``. 
 
