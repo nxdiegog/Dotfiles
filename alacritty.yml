@@ -1,0 +1,62 @@
+background_opacity: 0.85
+
+# Colors
+colors:
+   # Default colors
+   primary:
+     background: '#0F1011'
+     foreground: '#FFFFFF'
+
+   # Normal colors
+   normal:
+     black:   '#000000'
+     red:     '#9259ff'
+     green:   '#73F368'
+     yellow:  '#E4F34A'
+     blue:    '#9B6BDF'
+     magenta: '#E64747'
+     cyan:    '#75D7EC'
+     white:   '#EFA554'
+
+   # Bright colors
+   bright:
+     black:   '#555555'
+     red:     '#FF79C6'
+     green:   '#55FF55'
+     yellow:  '#F1FA8C'
+     blue:    '#BD93F9'
+     magenta: '#FF5555'
+     cyan:    '#8BE9FD'
+     white:   '#FFB86C'
+
+font:
+  bold:
+    family: UbuntuMono Nerd Font
+    style: bold
+
+  italic:
+    family: UbuntuMono Nerd Font
+    style: Italic
+
+  normal:
+    family: UbuntuMono Nerd Font
+    style: Regular
+
+  size: 10.4
+
+window:
+  padding:
+    x: 2
+
+cursor:
+  # Cursor style
+  
+  # Values for `style`:
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Beam
+
+key_bindings:
+  - { key: V,  mods: Control,   action: Paste   }
+  - { key: C,  mods: Control,   action: Copy    }
